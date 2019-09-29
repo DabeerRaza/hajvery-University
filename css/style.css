@@ -1,0 +1,2207 @@
+body {
+    overflow-x: hidden;
+}
+
+
+/*  .header Starts from here */
+
+.header {
+    background-color: #4A4A4A;
+}
+
+.left div {
+    line-height: 50px;
+  
+}
+
+.nav- li {
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 0px;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.nav- li a {
+    color: white;
+    display: block;
+    padding-bottom: 20px;
+    line-height: 0px;
+    margin-top: 12px;
+}
+
+.nav- li a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*  .header Ends from here */
+
+
+/*  .navigation Starts from here */
+
+.navigation {
+    background-color: #6F1418;
+}
+
+.logo-part {
+    text-align: center;
+}
+
+.logo-img {
+    list-style: none;
+    line-height: 83px;
+}
+
+.nav-unorder-li-part li {
+    list-style: none;
+    display: inline;
+    padding-left: 33px;
+    line-height: 87px; 
+    padding-bottom: 46px;
+    
+}
+
+.nav-unorder-li-part li a {
+    color: white;
+    font-size: 17px;
+   
+    padding-top: 30px;
+    cursor: pointer;
+    padding-bottom: 3px;
+}
+
+.nav-unorder-li-part li a:hover {
+    border-bottom: 2px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    text-decoration: none;
+    position: relative;
+}
+/*navigation-sub-menu starts from here*/
+
+.text-part li ul{
+    display: none;
+    position: relative;
+    
+
+}
+.text-part{
+    position: absolute;
+}
+
+.text-part ul li:hover ul{
+    
+    display: block;
+    position: absolute;
+    background-color: #E5E5E5;
+    z-index: 100;
+    padding-left: 0px;
+}
+
+.about-left-3 li{
+    display: block;
+    background-color: #E5E5E5;
+    margin-bottom: -100px;
+
+
+}
+.about-left-2{
+    background-color: black;
+}
+.about-left-3 li img{
+    width: 17px;
+}
+.about-left{
+   background-color: #E5E5E5;
+
+}
+
+.about-left-4 li{
+
+display: block;
+background-color: #E5E5E5;
+    margin-bottom: -100px;
+}
+.about-left-4 li a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+.about-left-4 ul li a:hover{
+    text-decoration: none;
+}
+.about-right-1{
+    background-color: black;
+}
+.about-right{
+    background-color: #E5E5E5;
+}
+
+        
+
+/*navigation-sub-menu ends from here*/
+
+
+/*  .navigation Ends from here */
+
+
+/*  .first-section Starts from here */
+
+.first-section {
+    margin: 0px;
+    position: relative;
+}
+
+.video {
+    position: relative;
+}
+
+
+/*  .first-section-child starts from here */
+
+.rgba {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/*  .first-section-child Ends from here */
+
+
+/*  .first-section Ends from here */
+
+
+/*  .second-section starts from here */
+
+.second-section {
+    background-color: rgba(12, 12, 12, 0.42);
+    height: 567px;
+    position: relative;
+    top: 0px;
+}
+
+
+/*  .second-section Ends from here */
+
+
+/*  .third-section starts from here */
+
+.third-section {
+    text-align: center;
+}
+
+.heading-on-first h1 {
+    font-size: 46px;
+    font-weight: bold;
+    color: #8E181B;
+}
+
+.heading-on-second h4 {
+    font-size: 20px;
+    color: #8E181B;
+}
+
+.for-height {
+    height: 70px;
+}
+
+
+/*  .third-section ends from here */
+
+
+/*  .forth-section starts from here */
+
+
+/*  .red-side of first-section starts from here */
+
+
+/*  .container-box of red-side starts from here */
+
+.red {
+    background-color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.container-box {
+    height: 375px;
+    background-color: white;
+    width: 41.666666667%;
+    float: left;
+    border: 1px solid rgb(206, 206, 206);
+    cursor: pointer;
+}
+
+.main-1 {
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+    height: 250px;
+}
+
+.pic-1 {
+    background-image: url(../img/Computer-Science_01.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    padding-left: 0px;
+    transition-property: opacity, transform;
+    transition-duration: 1s, 1s, 1s;
+    transition-timing-function: initial, initial, initial;
+    transition-delay: initial, initial, initial;
+    transition: opacity 1s, transform 1s;
+}
+
+.pic-1:hover {
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.circle-pic-1 {
+    
+    height: 52px;
+    width: 54px;
+    background-image: url(../img/Faculty-of-Computer-Science.jpg);
+    position: absolute;
+    top: 227px;
+    left: 15px;
+    border-radius: 138px;
+    border: 2px solid black;
+}
+
+.text-faculty-1 {
+    position: absolute;
+    top: 304px;
+    left: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    width: 154px;
+    text-align: center;
+    /* border: 1px solid; */
+    color: black;
+}
+
+.table-1 {
+    border: 2px solid red;
+    width: 100%;
+    position: relative;
+    top: 120px;
+
+}
+
+.trow-1{
+    position: relative;
+    top: 90px;
+
+}
+
+.td-1-1 {
+    border: 2px solid #E5E5E5;
+}
+
+.td-1-2 {
+    border: 2px solid #F58026;
+}
+
+.td-1-3 {
+    border: 2px solid #E5E5E5;
+}
+
+.rating-1 {
+    height: 20px;
+    position: absolute;
+    top: 446px;
+    /* left: 19px; */
+    text-align: center;
+    line-height: 20px;
+}
+
+.td-1-1-1 {
+    height: 20px;
+    width: 75px;
+    color: #E5E5E5;
+    text-shadow: 2px 1px 1px 1px #E5E5E5;
+}
+
+.td-1-1-2 {
+    height: 20px;
+    width: 70px;
+    font-size: 16px;
+    color: orange;
+}
+
+.td-1-1-3 {
+    height: 20px;
+    width: 80px;
+    font-size: 12px;
+    color: #E5E5E5;
+}
+
+.review {
+    position: absolute;
+    width: 52px;
+    height: 17px;
+    top: 413px;
+    left: 99px;
+    font-size: 16px;
+    color: #e5e5e5;
+}
+
+
+/*  .container-box of red-side ends from here */
+
+
+/*  .container-box-1 of red-side strats from here */
+
+.container-box-1 {
+    height: 375px;
+    background-color: white;
+    width: 41.666666667%;
+    border: 1px solid rgb(206, 206, 206);
+    float: left;
+    position: relative;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.green {
+    background-color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.main-2 {
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    float: left;
+    cursor: pointer;
+    height: 250px;
+}
+
+.pic-2 {
+    background-image: url(../img/Faculty-of-Pharmacy.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    padding-left: 0px;
+    transition-property: opacity, transform;
+    transition-duration: 1s, 1s, 1s;
+    transition-timing-function: initial, initial, initial;
+    transition-delay: initial, initial, initial;
+    transition: opacity 1s, transform 1s;
+}
+
+.pic-2:hover {
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.circle-pic-2 {
+    height: 52px;
+    width: 54px;
+    background-image: url(../img/Faculty-of-Pharmacy-1.jpg);
+    position: absolute;
+    top: 227px;
+    left: 15px;
+    border-radius: 138px;
+    border: 2px solid black;
+}
+
+.text-faculty-2 {
+    position: absolute;
+    top: 304px;
+    left: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    width: 154px;
+    text-align: center;
+    /* border: 1px solid; */
+    color: black;
+}
+
+.table-2 {
+    border: 2px solid red;
+       width: 100%;
+    position: absolute;
+    top: 373px;
+
+}
+
+.trow {}
+
+.td-2-1 {
+    width: 30px;
+    border: 2px solid #E5E5E5;
+}
+
+.td-2-2 {
+    width: 30px;
+    border: 2px solid #F58026;
+}
+
+.td-2-3 {
+    width: 35px;
+    border: 2px solid #E5E5E5;
+}
+
+
+/*  .container-box-1 of red-side ends from here */
+
+
+/*  .red-side of first-section ends from here */
+
+.main-3 {
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+    height: 250px;
+}
+
+.main-4 {
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    float: left;
+    cursor: pointer;
+    height: 250px;
+}
+
+.pic-3 {
+    background-image: url(../img/Faculty-of-Engineering.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    padding-left: 0px;
+    transition-property: opacity, transform;
+    transition-duration: 1s, 1s, 1s;
+    transition-timing-function: initial, initial, initial;
+    transition-delay: initial, initial, initial;
+    transition: opacity 1s, transform 1s;
+}
+
+.pic-3:hover {
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.pic-4 {
+    background-image: url(../img/Faculty-of-Health-Science.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    transition-property: opacity, transform;
+    transition-duration: 1s, 1s, 1s;
+    transition-timing-function: initial, initial, initial;
+    transition-delay: initial, initial, initial;
+    transition: opacity 1s, transform 1s;
+}
+
+.pic-4:hover {
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.circle-pic-3 {
+    height: 52px;
+    width: 54px;
+    background-image: url(../img/Faculty-of-Engineering-1.jpg);
+    position: absolute;
+    top: 227px;
+    left: 15px;
+    border-radius: 138px;
+    border: 2px solid black;
+}
+
+.text-faculty-3 {
+    position: absolute;
+    top: 304px;
+    left: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    width: 154px;
+    text-align: center;
+    /* border: 1px solid; */
+    color: black;
+}
+
+.table-3 {
+    border: 2px solid red;
+        width: 100%;
+    position: absolute;
+    top: 373px;
+}
+
+.trow {}
+
+.td-3-1 {
+    width: 35px;
+    border: 2px solid #E5E5E5;
+}
+
+.td-3-2 {
+    width: 30px;
+    border: 2px solid #F58026;
+}
+
+.td-3-3 {
+    width: 35px;
+    border: 2px solid #E5E5E5;
+}
+
+.circle-pic-4 {
+    height: 52px;
+    width: 54px;
+    background-image: url(../img/Faculty-of-Health-Science-1.jpg);
+    position: absolute;
+    top: 227px;
+    left: 15px;
+    border-radius: 138px;
+    border: 2px solid black;
+}
+
+.text-faculty-4 {
+    position: absolute;
+    top: 304px;
+    left: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    width: 154px;
+    text-align: center;
+    /* border: 1px solid; */
+    color: black;
+}
+
+.table-4 {
+    border: 2px solid red;
+        width: 100%;
+    position: absolute;
+    top: 373px;
+}
+
+.trow {}
+
+.td-4-1 {
+    width: 35px;
+    border: 2px solid #E5E5E5;
+}
+
+.td-4-2 {
+    width: 30px;
+    border: 2px solid #F58026;
+}
+
+.td-4-3 {
+    width: 35px;
+    border: 2px solid #E5E5E5;
+}
+
+
+/*  .forth-section ends from here */
+
+
+/*  .fifth-section starts from here */
+
+.fifth-section {}
+
+.main-5 {
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+    height: 250px;
+}
+
+.main-6 {
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    float: left;
+    cursor: pointer;
+    height: 250px;
+}
+
+.main-7 {
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+    height: 250px;
+}
+
+.main-8 {
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    float: left;
+    cursor: pointer;
+    height: 250px;
+}
+
+.container-box-3 {
+    height: 375px;
+    background-color: white;
+    width: 41.666666667%;
+    float: left;
+    border: 1px solid rgb(206, 206, 206);
+    cursor: pointer;
+    position: relative;
+}
+
+.container-box-4 {
+    height: 375px;
+    background-color: white;
+    width: 41.666666667%;
+    border: 1px solid rgb(206, 206, 206);
+    float: left;
+    position: relative;
+}
+
+.pink {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.blue {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.pic-5 {
+    background-image: url(../img/Faculty-of-Film-TV-Advertising.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    padding-left: 0px;
+    transition-property: opacity, transform;
+    transition-duration: 1s, 1s, 1s;
+    transition-timing-function: initial, initial, initial;
+    transition-delay: initial, initial, initial;
+    transition: opacity 1s, transform 1s;
+}
+
+.pic-5:hover {
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.pic-6 {
+    background-image: url(../img/Faculty-of-Humanities-Social-Science.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    padding-left: 0px;
+    transition-property: opacity, transform;
+    transition-duration: 1s, 1s, 1s;
+    transition-timing-function: initial, initial, initial;
+    transition-delay: initial, initial, initial;
+    transition: opacity 1s, transform 1s;
+}
+
+.pic-6:hover {
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.pic-7 {
+    background-image: url(../img/Faculty-of-Fashion-Textile-Design.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    padding-left: 0px;
+    transition-property: opacity, transform;
+    transition-duration: 1s, 1s, 1s;
+    transition-timing-function: initial, initial, initial;
+    transition-delay: initial, initial, initial;
+    transition: opacity 1s, transform 1s;
+}
+
+.pic-7:hover {
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.pic-8 {
+    background-image: url(../img/Faculty-of-Technology.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    transition-property: opacity, transform;
+    transition-duration: 1s, 1s, 1s;
+    transition-timing-function: initial, initial, initial;
+    transition-delay: initial, initial, initial;
+    transition: opacity 1s, transform 1s;
+}
+
+.pic-8:hover {
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.circle-pic-5 {
+    height: 52px;
+    width: 54px;
+    background-image: url(../img/Faculty-of-Media-Studies.jpg);
+    position: absolute;
+    top: 227px;
+    left: 15px;
+    border-radius: 138px;
+    border: 2px solid black;
+}
+
+.text-faculty-5 {
+    position: absolute;
+    top: 304px;
+    left: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    width: 154px;
+    text-align: center;
+    /* border: 1px solid; */
+    color: black;
+}
+
+.table-5 {
+    border: 2px solid red;
+        width: 100%;
+    position: absolute;
+    top: 373px;
+}
+
+.trow {}
+
+.td-5-1 {
+    width: 35px;
+    border: 2px solid #E5E5E5;
+}
+
+.td-5-2 {
+    width: 30px;
+    border: 2px solid #F58026;
+}
+
+.td-5-3 {
+    width: 35px;
+    border: 2px solid #E5E5E5;
+}
+
+.circle-pic-6 {
+    height: 52px;
+    width: 54px;
+    background-image: url(../img/Faculty-of-Humanities.jpg);
+    position: absolute;
+    top: 227px;
+    left: 15px;
+    border-radius: 138px;
+    border: 2px solid black;
+}
+
+.text-faculty-6 {
+    position: absolute;
+    top: 304px;
+    left: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    width: 154px;
+    text-align: center;
+    /* border: 1px solid; */
+    color: black;
+}
+
+.table-6 {
+    border: 2px solid red;
+        width: 100%;
+    position: absolute;
+    top: 373px;
+}
+
+.trow {}
+
+.td-6-1 {
+    width: 35px;
+    border: 2px solid #E5E5E5;
+}
+
+.td-6-2 {
+    width: 30px;
+    border: 2px solid #F58026;
+}
+
+.td-6-3 {
+    width: 35px;
+    border: 2px solid #E5E5E5;
+}
+
+.circle-pic-7 {
+    height: 52px;
+    width: 54px;
+    background-image: url(../img/Facutly-of-Feshion-Textile-Design.jpg);
+    position: absolute;
+    top: 227px;
+    left: 15px;
+    border-radius: 138px;
+    border: 2px solid black;
+}
+
+.text-faculty-7 {
+    position: absolute;
+    top: 304px;
+    left: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    width: 154px;
+    text-align: center;
+    /* border: 1px solid; */
+    color: black;
+}
+
+.table-7 {
+    border: 2px solid red;
+        width: 100%;
+    position: absolute;
+    top: 373px;
+}
+
+.trow {}
+
+.td-7-1 {
+    width: 35px;
+    border: 2px solid #E5E5E5;
+}
+
+.td-7-2 {
+    width: 30px;
+    border: 2px solid #F58026;
+}
+
+.td-7-3 {
+    width: 35px;
+    border: 2px solid #E5E5E5;
+}
+
+.circle-pic-8 {
+    height: 52px;
+    width: 54px;
+    background-image: url(../img/Faculty-of-Technology-1.jpg);
+    position: absolute;
+    top: 227px;
+    left: 15px;
+    border-radius: 138px;
+    border: 2px solid black;
+}
+
+.text-faculty-8 {
+    position: absolute;
+    top: 304px;
+    left: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    width: 154px;
+    text-align: center;
+    /* border: 1px solid; */
+    color: black;
+}
+
+.table-8 {
+    border: 2px solid red;
+        width: 100%;
+    position: absolute;
+    top: 373px;
+}
+
+.trow {}
+
+.td-8-1 {
+    width: 35px;
+    border: 2px solid #E5E5E5;
+}
+
+.td-8-2 {
+    width: 30px;
+    border: 2px solid #F58026;
+}
+
+.td-8-3 {
+    width: 35px;
+    border: 2px solid #E5E5E5;
+}
+
+
+/*  .fifth-section ends from here */
+
+
+/*  .sixth-section starts from here */
+
+.sixth-section {
+    padding-bottom: 45px;
+}
+
+.main-9 {
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+    height: 250px;
+}
+
+.main-10 {
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    float: left;
+    cursor: pointer;
+    height: 250px;
+}
+
+.main-11 {
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+    height: 250px;
+}
+
+.main-12 {
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    float: left;
+    cursor: pointer;
+    height: 250px;
+}
+
+.container-box-5 {
+    height: 375px;
+    background-color: white;
+    width: 41.666666667%;
+    float: left;
+    border: 1px solid rgb(206, 206, 206);
+    cursor: pointer;
+    position: relative;
+}
+
+.container-box-6 {
+    height: 375px;
+    background-color: white;
+    width: 41.666666667%;
+    border: 1px solid rgb(206, 206, 206);
+    float: left;
+    position: relative;
+}
+
+.yellow {
+    ;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.black {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.pic-9 {
+    background-image: url(../img/Faculty-of-Business-Administration.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    padding-left: 0px;
+    transition-property: opacity, transform;
+    transition-duration: 1s, 1s, 1s;
+    transition-timing-function: initial, initial, initial;
+    transition-delay: initial, initial, initial;
+    transition: opacity 1s, transform 1s;
+}
+
+.pic-9:hover {
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.pic-10 {
+    background-image: url(../img/Faculty-of-Commerce-Banking.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    padding-left: 0px;
+    transition-property: opacity, transform;
+    transition-duration: 1s, 1s, 1s;
+    transition-timing-function: initial, initial, initial;
+    transition-delay: initial, initial, initial;
+    transition: opacity 1s, transform 1s;
+}
+
+.pic-10:hover {
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.pic-11 {
+    background-image: url(../img/Faculty-of-Law-1.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    padding-left: 0px;
+    transition-property: opacity, transform;
+    transition-duration: 1s, 1s, 1s;
+    transition-timing-function: initial, initial, initial;
+    transition-delay: initial, initial, initial;
+    transition: opacity 1s, transform 1s;
+}
+
+.pic-11:hover {
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.pic-12 {
+    background-image: url(../img/Professional-Programs-for-working-Executive.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    transition-property: opacity, transform;
+    transition-duration: 1s, 1s, 1s;
+    transition-timing-function: initial, initial, initial;
+    transition-delay: initial, initial, initial;
+    transition: opacity 1s, transform 1s;
+}
+
+.pic-12:hover {
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.circle-pic-9 {
+    height: 52px;
+    width: 54px;
+    background-image: url(../img/Faculty-of-Business.jpg);
+    position: absolute;
+    top: 227px;
+    left: 15px;
+    border-radius: 138px;
+    border: 2px solid black;
+}
+
+.text-faculty-9 {
+    position: absolute;
+    top: 304px;
+    left: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    width: 154px;
+    text-align: center;
+    /* border: 1px solid; */
+    color: black;
+}
+
+.table-9 {
+    border: 2px solid red;
+        width: 100%;
+    position: absolute;
+    top: 373px;
+}
+
+.trow {}
+
+.td-9-1 {
+    width: 35px;
+    border: 2px solid #E5E5E5;
+}
+
+.td-9-2 {
+    width: 30px;
+    border: 2px solid #F58026;
+}
+
+.td-9-3 {
+    width: 35px;
+    border: 2px solid #E5E5E5;
+}
+
+.circle-pic-10 {
+    height: 52px;
+    width: 54px;
+    background-image: url(../img/Faculty-of-Commerce-Banking-1.jpg);
+    position: absolute;
+    top: 227px;
+    left: 15px;
+    border-radius: 138px;
+    border: 2px solid black;
+}
+
+.text-faculty-10 {
+    position: absolute;
+    top: 304px;
+    left: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    width: 154px;
+    text-align: center;
+    /* border: 1px solid; */
+    color: black;
+}
+
+.table-10 {
+    border: 2px solid red;
+        width: 100%;
+    position: absolute;
+    top: 373px;
+}
+
+.trow {}
+
+.td-10-1 {
+    width: 35px;
+    border: 2px solid #E5E5E5;
+}
+
+.td-10-2 {
+    width: 30px;
+    border: 2px solid #F58026;
+}
+
+.td-10-3 {
+    width: 35px;
+    border: 2px solid #E5E5E5;
+}
+
+.circle-pic-11 {
+    height: 52px;
+    width: 54px;
+    background-image: url(../img/Faculty-of-Law.jpg);
+    position: absolute;
+    top: 227px;
+    left: 15px;
+    border-radius: 138px;
+    border: 2px solid black;
+}
+
+.text-faculty-11 {
+    position: absolute;
+    top: 304px;
+    left: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    width: 154px;
+    text-align: center;
+    /* border: 1px solid; */
+    color: black;
+}
+
+.table-11 {
+    border: 2px solid red;
+        width: 100%;
+    position: absolute;
+    top: 373px;
+}
+
+.trow {}
+
+.td-11-1 {
+    width: 35px;
+    border: 2px solid #E5E5E5;
+}
+
+.td-11-2 {
+    width: 30px;
+    border: 2px solid #F58026;
+}
+
+.td-11-3 {
+    width: 35px;
+    border: 2px solid #E5E5E5;
+}
+
+.circle-pic-12 {
+    height: 52px;
+    width: 54px;
+    background-image: url(../img/Professional-Program-for-working-Executive.jpg);
+    position: absolute;
+    top: 227px;
+    left: 15px;
+    border-radius: 138px;
+    border: 2px solid black;
+}
+
+.text-faculty-12 {
+    position: absolute;
+    top: 304px;
+    left: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    width: 154px;
+    text-align: center;
+    /* border: 1px solid; */
+    color: black;
+}
+
+.table-12 {
+    border: 2px solid red;
+        width: 100%;
+    position: absolute;
+    top: 373px;
+}
+
+.trow {}
+
+.td-12-1 {
+    width: 35px;
+    border: 2px solid #E5E5E5;
+}
+
+.td-12-2 {
+    width: 30px;
+    border: 2px solid #F58026;
+}
+
+.td-12-3 {
+    width: 35px;
+    border: 2px solid #E5E5E5;
+}
+
+
+/*  .sixth-section ends from here */
+
+
+/*
+  .seventh-section starts from here */
+
+.seventh-section {
+    background-color: #4271A5;
+}
+
+.headings {
+    margin-top: 30px;
+}
+
+.heading-1 {
+    text-align: center;
+}
+
+.heading-2 {
+    text-align: center;
+}
+
+.horizental-line {
+    height: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.para-head-1 {
+    font-size: 30px;
+    color: white;
+}
+
+.para-head-2 {
+    font-size: 23px;
+    color: white;
+}
+
+.horiz-head-3 {
+    f font-size: 20px;
+    color: white;
+    /* border: 1px solid white; */
+    position: relative;
+    top: 16px;
+    height: 1px;
+    background: white;
+}
+
+
+/*  .seventh-section ends from here */
+
+
+/*  .eight-section starts from here */
+
+.affiliated-1 {
+    background-color: red;
+}
+
+.affi-one {
+    background-image: url(../img/affi-one.jpg);
+    height: 300px;
+    padding: 21px;
+}
+
+.affi-one-logo {
+    background-image: url(../img/affi-one-logo.png);
+    height: 260px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.affi-two {
+    background-image: url(../img/affi-two.jpg);
+    height: 300px;
+    padding: 21px;
+}
+
+.affi-two-logo {
+    background-image: url(../img/affi-two-logo.png);
+    height: 260px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.affi-three {
+    background-image: url(../img/affi-three.jpg);
+    height: 300px;
+    padding: 21px;
+}
+
+.affi-three-logo {
+    background-image: url(../img/affi-three-logo.png);
+    height: 260px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.affi-four {
+    background-image: url(../img/affi-four.jpg);
+    height: 300px;
+    padding: 21px;
+}
+
+.affi-four-logo {
+    background-image: url(../img/affi-four-logo.png);
+    height: 260px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+/*  .eight-section ends from here */
+
+
+/*  .ninth-section starts from here */
+
+.affiliated-2 {
+    background-color: green;
+}
+
+.affi-five {
+    background-image: url(../img/affi-five.jpg);
+    height: 300px;
+    padding: 21px;
+}
+
+.affi-five-logo {
+    background-image: url(../img/affi-five-logo.png);
+    height: 260px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.affi-six {
+    background-image: url(../img/affi-six.jpg);
+    height: 300px;
+    padding: 21px;
+}
+
+.affi-six-logo {
+    background-image: url(../img/affi-six-logo.png);
+    height: 260px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.affi-seven {
+    background-image: url(../img/affi-seven.jpg);
+    height: 300px;
+    padding: 21px;
+}
+
+.affi-seven-logo {
+    background-image: url(../img/affi-seven-logo.png);
+    height: 260px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.affi-eight {
+    background-image: url(../img/affi-eight.jpg);
+    height: 300px;
+    padding: 21px;
+}
+
+.affi-eight-logo {
+    background-image: url(../img/affi-eight-logo.png);
+    height: 260px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+/*  .ninth-section ends from here */
+
+
+/*  .Tenth-section ends from here */
+
+.tenth-section {}
+
+.university-news {
+    border-top: 6px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+    border-color: #3B3B3B;
+    background-color: #F8F8F8;
+    text-align: center;
+}
+
+.h1-one {
+    color: #006CD2;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.h4-two {
+    color: #006CD2;
+}
+
+.hr {
+    height: 40px;
+}
+
+.hr-end {
+    background-color: #006CD2;
+    height: 3px;
+}
+
+
+/*  .Tenth-section ends from here */
+
+
+/*  .eleventh-section ends from here */
+
+.slider {
+    background-color: #F8F8F8;
+}
+
+
+/*  .eleventh-section ends from here */
+
+
+/*  .twelveth-section starts from here */
+
+.left-side-of-minister {
+    background-color: #F8F8F8;
+}
+
+.right-side-of-minister {
+    background-color: #F8F8F8;
+}
+
+.div-img-blanket {}
+
+.img-blanket {
+    transition-property: opacity, transform;
+    transition-duration: 1s, 1s, 1s;
+    transition-timing-function: initial, initial, initial;
+    transition-delay: initial, initial, initial;
+    transition: opacity 1s, transform 1s;
+}
+
+.img-blanket:hover {
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.blank {
+    height: 40px;
+    background-color: #F8F8F8;
+}
+
+
+/*  .twelveth-section ends from here */
+
+
+/*  .thirteenth-section starts from here */
+
+.thirteenth-section {
+    border-top: 4px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-color: #0B1E62;
+    border-style: solid;
+}
+
+.multimedia {
+    text-align: center;
+}
+
+.multimedia h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #8E181B;
+    padding-bottom: 40px;
+}
+
+
+/*  .thirteenth-section ends from here */
+
+
+/*  .fourteenth-section ends from here */
+
+.fourteenth-section {}
+
+.left-for-large-video {
+    margin-left: 50px;
+}
+
+.right-for-link-video {
+    margin-right: 50px;
+}
+
+.iframe {
+    height: 500px;
+}
+
+.color {
+    height: 130px;
+}
+
+.white {
+    height: 130px;
+}
+
+
+/*  .fourteenth-section ends from here */
+
+
+/*  .fifteenth-section starts from here */
+
+.fifteenth-section {
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.button {
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button a {
+    background-color: #9A0000;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    padding-left: 19px;
+    padding-right: 19px;
+    color: white;
+    line-height: 20px;
+}
+
+.button a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*  .fifteenth-section ends from here */
+
+
+/*  .sixteenth-section ends from here */
+
+.sixteenth-section {
+    
+    border-top: 5px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+    border-color: #B7C0FF;
+    background-color: #EEEEEE;
+}
+
+.sixteenth-section h1 {
+    color: #990000;
+    font-weight: bold;
+    font-size: 34px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+
+/*  .sixteenth-section ends from here */
+
+
+/*  .seventeenth-section starts from here */
+
+.seventeenth-section {
+    background-color: #EEEEEE;
+    padding-bottom: 40px;
+}
+
+.campus-pic-1,
+.campus-pic-2,
+.campus-pic-3,
+.campus-pic-3,
+.campus-pic-4,
+.campus-pic-5,
+.campus-pic-6 {
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.campus-pic-1 img,
+.campus-pic-2 img,
+.campus-pic-3 img,
+.campus-pic-4 img,
+.campus-pic-5 img {
+    border: 2px solid white;
+    border-radius: 12px;
+    transition-property: opacity, transform;
+    transition-duration: 1s, 1s, 1s;
+    transition-timing-function: initial, initial, initial;
+    transition-delay: initial, initial, initial;
+    transition: opacity 1s, transform 1s;
+}
+
+.campus-pic-1 img:hover,
+.campus-pic-2 img:hover,
+.campus-pic-3 img:hover,
+.campus-pic-4 img:hover,
+.campus-pic-5 img:hover {
+    transform: scale3d(1.1, 1.1, 1);
+    border-radius: 12px;
+}
+
+
+/*  .seventeenth-section ends from here */
+
+
+/*  .eighteenth-section starts from here */
+
+.eighteenth-section {
+    padding-bottom: 40px;
+    background-color: #EEEEEE;
+}
+
+.tour-loactions {
+    text-align: center;
+    display: block;
+    background-color: red;
+}
+
+.tour-loactions a {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    background-color: #9A0000;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    display: block;
+}
+
+.tour-loactions a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*  .eighteenth-section ends from here */
+
+
+/*  .nineteenth-section starts from here */
+
+.effal-Tower img {
+    background-repeat: no-repeat;
+    position: absolute;
+    height : 100%;
+    background-size: 100% 100%;
+}
+
+.partaner-uni {
+    position: relative;
+    text-align: center;
+    background-size: 100% 100%;
+    padding-top: 60px;
+}
+
+.partaner-uni h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    padding-bottom: 40px;
+}
+
+.partner-hr {
+    border: 1px solid white;
+    background-color: white;
+}
+
+.partner-part-2 {
+    margin-top: 40px;
+}
+
+.partaner-part-2-1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.partaner-part-2-1 h1 {
+    color: white;
+    margin-left: 30px;
+}
+
+.slide-uni-logo {
+        margin-top: 114px;
+}
+
+.slide-uni-pic-1 {
+    background-image: url(../img/SABANCI.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+}
+
+.slide-uni-pic-2 {
+    background-image: url(../img/Sakarya-Universitesi.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+}
+
+.slide-uni-pic-3 {
+    background-image: url(../img/University-of-Cyprus.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+}
+
+.slide-uni-pic-4 {
+    background-image: url(../img/University-of-DEUSTO.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+}
+
+.slide-uni-pic-5 {
+    background-image: url(../img/University-of-Flensburg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+}
+
+
+/*  .nineteenth-section ends from here */
+
+
+/*  .twentieth-section ends from here */
+
+
+/*twth-left starts here*/
+
+.twentieth-section {
+    background-color: #37383A;
+    padding: 40px;
+}
+
+.twth-left {
+    padding-right: 20px;
+}
+
+.twth-left-up {
+    margin-bottom: 70px;
+}
+
+.twth-1-h3 h3 {
+    color: white;
+    font-size: 28px;
+}
+
+.twth-2-hr hr {
+    border: 1px solid white;
+    background-color: white;
+}
+
+.twth-3-p {
+    color: #8A8787;
+}
+
+.twth-4-link {
+    text-align: center;
+    border-radius: 2px;
+}
+
+.twth-4-link a img {
+    width: 18px;
+}
+
+.twth-4-link a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #891311;
+    padding: 12px;
+    border-radius: 2px;
+}
+
+.twth-4-link a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.twth-left-down {}
+
+.twth-down-1-h3 {}
+
+.twth-down-1-h3 h3 {
+    color: white;
+    font-size: 28px;
+}
+
+.twth-down-2-hr hr {
+    border: 1px solid white;
+    background-color: white;
+}
+
+.twth-down-3-p p {
+    color: #8A8787;
+}
+
+
+/*twth-left ends here*/
+
+
+/*twth-centre starts here*/
+
+.twth-cnt-up {
+    margin-bottom: 73px;
+}
+
+.twth-centre {
+    height: 600px;
+    padding-right: 20px;
+}
+
+.twth-cnt-1-h3 h3 {
+    color: white;
+    font-size: 28px;
+}
+
+.twth-cnt-3-p p {
+    color: #8A8787;
+    margin-bottom: 27px;
+}
+
+.twth-cnt-4-link {}
+
+.twth-cnt-4-link {
+    text-align: center;
+    border-radius: 2px;
+}
+
+.twth-cnt-4-link a img {
+    width: 18px;
+}
+
+.twth-cnt-4-link a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #891311;
+    padding: 12px;
+    border-radius: 2px;
+}
+
+.twth-cnt-4-link a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.twth-cnt-2-hr hr {
+    border: 1px solid white;
+    background-color: white;
+}
+
+.twth-cnt-3-a ul li a {
+    color: #8A8787;
+    text-decoration: none;
+}
+
+.twth-cnt-3-a ul li a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.twth-cnt-3-a ul li {
+    text-indent: -.9em;
+    list-style: none;
+}
+
+.twth-cnt-3-a ul li:before {
+    content: "• ";
+    color: #8A8787;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+/*twth-centre ends here*/
+
+
+/*twth-right ends here*/
+
+.twth-rgt-1-h3 h3 {
+    color: white;
+    font-size: 25px;
+}
+
+.twth-right {
+    height: 600px;
+    padding-right: 40px;
+}
+
+.twth-rgt-2-p p {
+    color: white;
+    font-size: 15px;
+}
+
+.twth-rgt-up {
+    padding-bottom: 50px;
+    border-bottom: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: dotted;
+    border-color: #8A8787;
+}
+.twth-rgt-sp-inp{
+    margin-top: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.twth-rgt-sp-inp:hover{
+     background-color: #555555;
+}
+.twth-rgt-1-sp {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    
+
+}
+.twth-rgt-1-inp input{
+    border-radius: 4px;
+    border: 0px;
+    font-size: 16px;
+    padding-left: 12px;
+    color: black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.twth-rgt-2-sp {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    
+
+}
+.twth-rgt-2-inp input{
+    border-radius: 4px;
+    border: 0px;
+    font-size: 16px;
+    padding-left: 12px;
+    color: black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.twth-rgt-sp-inp-1{
+    margin-top: 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.twth-rgt-sp-inp-1:hover{
+     background-color: #555555;
+}
+.twth-rgt-3-sp {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    
+
+}
+.twth-rgt-3-inp input{
+    border-radius: 4px;
+    border: 0px;
+    font-size: 16px;
+    padding-left: 12px;
+    color: black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.twth-rgt-sp-inp-2{
+    margin-top: 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.twth-rgt-sp-inp-2:hover{
+    background-color: #555555;
+}
+.twth-rgt-4-sp {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    
+
+}
+.twth-rgt-4-inp select{
+    border-radius: 4px;
+    border: 0px;
+    font-size: 16px;
+    padding-left: 12px;
+    color: black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.twth-rgt-sp-inp-3{
+    margin-top: 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.twth-rgt-sp-inp-3:hover{
+    background-color: #555555;
+}
+.twth-rgt-5-sp {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    
+
+}
+.twth-rgt-5-inp select{
+    border-radius: 4px;
+    border: 0px;
+    font-size: 16px;
+    padding-left: 12px;
+    color: black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.twth-rgt-sp-inp-4{
+    margin-top: 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.twth-rgt-sp-inp-4:hover{
+    background-color: #555555;
+}
+.twth-rgt-6-sp {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    
+
+}
+
+.twth-rgt-sp-inp-5{
+    margin-top: 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.twth-rgt-sp-inp-5:hover{
+      background-color: #555555;
+}
+.twth-rgt-6-p p{
+    color: white;
+}
+.twth-rgt-sp-inp-6{
+    margin-top: 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+.twth-rgt-7-inp input{
+    color: white;
+    background-color: #C80042;
+    border: 0px;
+    border-radius: 4px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    
+    font-size: 18px;
+}
+
+
+/*twth-right ends here*/
+
+
+/*  .twentieth-section ends from here */
+
+/*footer-section starts from here*/
+
+.footer{
+    
+    background-color: #292A2C;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.footer-h3{
+    color: #DCA507;
+
+    padding-left: 40px;
+    
+}
+.footer-h3 h3{
+    font-size: 25px;
+    text-align: center;
+}
+.footer-p{
+    color: white;
+    line-height: 67px;
+    text-align: center;
+}
+.footer-p p{
+    font-size: 17px;
+}
+.social{
+    
+    padding-top: 15px;
+}
+
+/*footer-section ends from here*/
