@@ -1725,11 +1725,8 @@ background-color: #E5E5E5;
 
 /*  .nineteenth-section starts from here */
 
-.effal-Tower img {
-    background-repeat: no-repeat;
-    position: absolute;
-    height : 100%;
-    background-size: 100% 100%;
+.nineteenth-section{
+    background-image: url("../img/effal-Tower.jpg");
 }
 
 .partaner-uni {
@@ -1768,7 +1765,8 @@ background-color: #E5E5E5;
 }
 
 .slide-uni-logo {
-        margin-top: 114px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 114px;
 }
 
 .slide-uni-pic-1 {
